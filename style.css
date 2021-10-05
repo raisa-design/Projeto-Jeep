@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+ 
 }
 
 ul {
@@ -188,6 +188,10 @@ img {
   background-color: #f4f4f4;
 }
 
+.elements-purchase-mobile{
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   ul {
     display: none;
@@ -253,5 +257,10 @@ img {
     display: flex;
     width: 100%;
     justify-content: center;
+  }
+
+  .elements-purchase-mobile{
+    display: flex;
+    flex-direction: column;
   }
 }
