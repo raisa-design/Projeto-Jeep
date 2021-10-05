@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="imagens/download.png" type="image/x-icon" />
+    <title>Renegade</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <div class="logotipo">
+          <a href="#"><img class="logo" src="imagens/jeep.png" alt="Logo Jeep" /></a>
+          <ul>
+            <!--Menu-->
+            <li><a href="#veiculos">VEICULOS</a></li>
+            <li>
+              <a href="#jeeplife"
+                >JEEP <br />
+                LIFE</a
+              >
+            </li>
+            <li><a href="#proprietarios">PROPRIETÁRIOS</a></li>
+            <li>
+              <a href="#vendasdiretas"
+                >VENDAS <br />
+                DIRETAS</a
+              >
+            </li>
+            <li><a href="#ofertas">OFERTAS</a></li>
+            <li>
+              <a href="#nextjeep"
+                >NEXT <br />
+                JEEP</a
+              >
+            </li>
+            <li><a href="#pcd">PCD</a></li>
+            <li><a href="#concessionarias">CONCESSIONÁRIAS</a></li>
+            <li><a href="#januariamg">JANUÁRIA-MG</a></li>
+            <li>
+              <a href="entreoucadastre"
+                >ENTRE OU <br />
+                CADASTRE</a
+              >
+            </li>
+          </ul>
+          <!--Menu-->
+        </div>
+      </nav>
+      </header>
+        <main>
+          <!--Home-->
+          <div class="resumo">
+            <span class="modelo-carro">RENEGADE TRAILHAWK</span>
+
+            <span class="caracteristica">2.0 TURBO 4X4 DIESEL AUTOMÁTICO </span>
+
+            <span class="valor">PREÇO</span>
+
+            <span class="reais">R$</span>
+
+            <span class="capital">180.990,00</span>
+
+            <div class="elements-purchase">
+              <a
+                class="finance"
+                href=""
+               
+              >
+                <span class="finance-text">SIMULE AS PARCELAS</span>
+
+                <div class="finance-icon">
+                  <img
+                    src="imagens/calculadora.png"
+                    alt=""
+                    width="25px"
+                    height="25px"
+                  />
+                </div>
+              </a>
+            </div>
+
+            <a class="negotiate" href="">
+              <span class="negotiate-text">COMPRE O SEU</span>
+
+              <div class="negotiate-icon">
+                <img
+                  src="imagens/seta-direita.png"
+                  alt="seta"
+                  height="20px"
+                  width="20px"
+                />
+              </div>
+            </a>
+          </div>
+
+          <div class="divider-1"></div>
+
+          <!--Main-->
+          <div id="content">
+            <div class="button">
+            <button id="btn-recom" class="button-color green"  onclick="showCar('recom'); border('recom') " ></button>
+              <button id="btn-gray" class="button-color gray" onclick="showCar('gray'); border('gray')"></button>
+              <button id="btn-blue" class="button-color blue" onclick="showCar('blue'); border('blue')"></button>
+              <button  id="btn-red" class="button-color red" onclick="showCar('red'); border('red')"></button>
+              <button id="btn-black" class="button-color black" onclick="showCar('black'); border('black')"></button>
+              <button id="btn-white" class="button-color white" onclick="showCar('white'), border('white')"></button>
+            </div>
+            <div id="car-recom">
+              <img
+                height="100%"
+                width="100%"
+                src="imagens/jeeprecon.jpg"
+                alt="Carro jeep recom"
+              />
+            </div>
+
+            <div id="car-gray">
+              <img
+                height="100%"
+                width="100%"
+                src="imagens/jeepgray.jpg"
+                alt="Carro jeep cinza"
+              />
+            </div>
+
+            <div id="car-blue">
+              <img
+                height="100%"
+                width="100%"
+                src="imagens/jeepazull.jpg"
+                alt="Carro jeep azul"
+              />
+            </div>
+
+            <div id="car-white">
+              <img
+                height="100%"
+                width="100%"
+                src="imagens/jeepwhite.jpg"
+                alt="Carro jeep branco"
+              />
+            </div>
+
+            <div id="car-black">
+              <img
+                height="100%"
+                width="100%"
+                src="imagens/jeepblack.jpg"
+                alt="Carro jeep preto"
+              />
+            </div>
+
+            <div id="car-red">
+              <img
+                height="100%"
+                width="100%"
+                src="imagens/jeepred.jpg"
+                alt="Carro jeep vermelho"
+              />
+            </div>
+          </div>
+        </main>   
+    <script src="index.js"></script>
+  </body>
+</html>

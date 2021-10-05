@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+/*-------------------Logo------------------------------ */
+.logotipo {
+  color: white;
+  background-color: #191919;
+  height: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  margin-bottom: 45px;
+}
+
+
+ul {
+  display: flex;
+}
+
+ul li{
+  
+  width: 6.25rem;
+  margin-right: 1.26rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.6rem;
+  padding-left: 0.5rem;
+  
+}
+
+/*----------------------Home-------------------*/
+.divider-1{
+height: 1px;
+width: 100%;
+  background:rgba(128, 128, 128, 0.452);
+}
+
+.resumo{
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.modelo-carro{
+  font-size: 21px;
+  font-weight: 800;
+  margin: 0;
+  line-height: 16px;
+  padding-left: 10px;
+  
+}
+
+.caracteristica{
+  line-height: 10px;
+  color: #636363;
+  font-size: 12px;
+  padding-left: 13px;
+}
+
+.valor{
+  color: #636363;
+  font-size: 12px;
+  padding-left: 150px;
+}
+
+.reais{
+  color: #636363;
+  font-size: 12px;
+  padding-left: 20px; 
+  margin-top: 5px;
+}
+
+.capital{
+  color: #40424a;
+  font-size: 12px;
+  padding-left: 5px;
+  font-weight:bold;
+  font-size: 18px;
+}
+
+.elements-purchase{
+  padding-left: 90px;
+}
+
+.finance{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*padding-left: 10px;*/
+  height: 39px;
+  text-decoration: none;
+  background-color: #BFBFBF;
+  color:#444444;
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.finance-icon{
+  padding-left: 1px;
+  margin-bottom: 50px;
+}
+
+.negotiate{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  height: 39px;
+  text-decoration: none;
+  background-color: #FFBA03;
+  padding-left: 25px;
+  padding-right: 25px;
+  color:#444444;
+  font-weight:bold;
+  font-size: 12px;
+
+}
+
+.negotiate-icon{
+  display: flex;
+  align-items: center;
+  padding-left: 0.8px;
+  margin-bottom: 50px;
+  
+}
+
+img{
+  margin-top: 50px;
+}
+
+#content{
+  display: flex;
+}
+
+.button-color{
+  border-radius:50px;
+  height: 24px;
+  width: 24px;
+  border: 3px solid gray;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.green{
+ 
+  background-color: #22291D;
+ 
+}
+
+.blue{
+   background-color: #12264B;
+}
+
+.red{
+  background-color:#951B1C;
+}
+
+.gray{
+  background-color:#696E6B;
+}
+
+.black{
+  background-color:black;
+}
+
+.white{
+  background-color: #F4F4F4;
+}
+
+
